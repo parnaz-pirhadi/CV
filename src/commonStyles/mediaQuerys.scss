@@ -1,0 +1,35 @@
+@media screen and (max-width: 1050px) {
+  p{
+    font-size: 1.5vw;
+  }
+
+}
+
+@media screen and (max-width: 790px) {
+    p{
+      font-size: 2vw;
+    }
+    h2{
+      font-size: 3vw;
+
+    }
+
+    .mainBlock{
+      p{
+          padding: 28px 10% 0 10% !important;
+      }
+
+
+  }
+}
+
+@media screen and (max-width: 590px) {
+  p{
+    font-size: 3vw;
+  }
+
+  h2{
+    font-size: 4vw;
+
+  }
+}
