@@ -1,0 +1,89 @@
+.book{
+    min-height: 425px;
+    position: relative;
+    margin-bottom: 130px;
+    .mainBlock{
+        display: flex;
+        direction: rtl;
+        h2{
+            color: #191919;
+    margin-right: 17%;
+    text-align: right;
+    font-weight: 600;
+    position: relative;
+    margin-top: 0;
+    min-width: 93px;
+    padding-top: 44px;
+            &::before{
+                width: 5vw;
+                height: 3px;
+                margin: 0 10px;
+                content: '';
+                position: absolute;
+                bottom: 0;
+                background: #6eb6ff;
+                border-radius: 3px;
+            }
+        }
+        p{
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.55;
+            letter-spacing: normal;
+            color: #707070;
+            text-align: justify;
+            direction: rtl;
+            padding: 28px 4% 0 17%;
+            margin-bottom: 0;
+        }
+
+    }
+    .history-block{
+        position: relative;
+        z-index: 999;
+        bottom: -65px;
+    }
+    .bookList{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 61%;
+        margin: 25px auto;
+    }
+
+}
+
+
+@media screen and (max-width: 790px) {
+    .book{
+        .mainBlock{
+            display: block;
+            h2{
+                &::before{
+                    width: 7.5vw;
+                }
+            }
+
+    
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: 590px) {
+    .book{
+        .mainBlock{
+            display: block;
+            h2{
+                &::before{
+                    width: 9.5vw;
+                }
+            }
+
+    
+        }
+    }
+  }

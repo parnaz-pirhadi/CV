@@ -1,0 +1,111 @@
+nav {
+  background-color: #ffffff;
+  height: 6vh;
+  ul {
+    position: relative;
+    height: 100%;
+    width: 91%;
+    margin: 13px auto;
+    display: flex;
+    .linkedin {
+      margin-left: 20vw;
+      margin-top: -3px;
+    }
+    .google-plus {
+      margin-left: 5px;
+    }
+    .email {
+      margin-left: 43%;
+      .socialMedia {
+        border: none !important;
+        position: relative;
+      }
+    }
+
+    li {
+      display: inline-block;
+      a {
+        span {
+          color: #15489f;
+          font-size: 1vw;
+          margin-right: 5px;
+          right: 14%;
+          font-weight: 600;
+          position: absolute;
+        }
+        text-decoration: none;
+        .socialMedia {
+          display: inline-block;
+          border-radius: 50%;
+          width: 26px;
+          height: 26px;
+          border: 1px solid #15489f;
+
+          .icon-envelope {
+            color: #15489f;
+            position: absolute;
+            width: 2.3px;
+            height: 9.5px;
+            font-size: 1.8vw;
+            top: -3px;
+          }
+          .icon-linkedin {
+            color: #15489f;
+            position: absolute;
+            margin-left: 6px;
+            top: 2px;
+            font-size: 1.1vw;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 790px) {
+  li {
+    a {
+      span {
+        font-size: 3vw !important;
+        right: 5% !important;
+      }
+    }
+  }
+  nav {
+    ul {
+      .linkedin {
+        margin-left: 0;
+      }
+
+      .email {
+        margin-left: 43%;
+      }
+    }
+  }
+  .icon-envelope {
+    font-size: 3.9vw !important;
+    left: -60%;
+    top: 3px !important;
+  }
+  .icon-linkedin {
+    font-size: 1.9vw !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  nav {
+    ul {
+      .email {
+        margin-left: 34%;
+        margin-top: 1%;
+      }
+      .icon-linkedin {
+        font-size: 3.4vw !important;
+      }
+      .icon-envelope {
+        font-size: 5.7vw !important;
+        top: -3px !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+.certificate {
+  .mainBlock {
+    h2 {
+      color: #3504bc;
+      text-align: center;
+      font-weight: 600;
+      position: relative;
+      &::before {
+        width: 8vw;
+        height: 3px;
+        margin: 0 10px;
+        content: "";
+        position: absolute;
+        bottom: -12px;
+        border-radius: 3px;
+        background: #fd5540;
+      }
+    }
+    p {
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.55;
+      letter-spacing: normal;
+      color: #2a0984;
+      text-align: justify;
+      padding: 28px 17%;
+      direction: ltr;
+    }
+  }
+
+  .certificateList {
+    display: flex;
+    flex-wrap: wrap;
+    direction: ltr;
+    padding: 0px 19%;
+    font-size: 1.2vw;
+    max-height: 373px;
+    min-height: 213px;
+    color: #515151;
+    flex-direction: column;
+    li {
+      width: 55%;
+      list-style-type: none;
+      margin-top: 5px;
+      &::before {
+        position: absolute;
+        content: "";
+        width: 17px;
+        height: 17px;
+        background-color: #15489f;
+        margin-right: -28px;
+        margin-top: 4px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1198px) {
+  .certificate {
+    .certificateList {
+      max-height: none;
+      font-size: 1.7vw;
+      li {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .certificate {
+    .mainBlock {
+      h2 {
+        &::before {
+          width: 12.5vw;
+          margin: 0 5px;
+        }
+      }
+
+      p {
+        padding: 10px 10% 0 10%;
+      }
+    }
+    .certificateList {
+      padding: 0px 10%;
+      font-size: 2.2vw;
+    }
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .certificate {
+    .mainBlock {
+      h2 {
+        &::before {
+          width: 16.5vw;
+        }
+      }
+    }
+    .certificateList {
+      font-size: 2.9vw;
+      padding: 0px 11%;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+@import "../../commonStyles/icon.scss";
+@font-face {
+  font-family: iransans;
+  src: url("/fonts/iransans/IRANSans.woff");
+}
+
+input,
+label,
+span,
+button,
+a,
+div,
+body,
+ul,
+li {
+  font-family: sans-serif;
+  outline: none !important;
+}
+p {
+  font-size: 1.2vw;
+}
+h2 {
+  font-size: 2vw;
+}
+body {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+@import "../../commonStyles/mediaQuerys.scss";
