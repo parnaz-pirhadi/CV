@@ -1,0 +1,95 @@
+{
+  "title": "Experience",
+  "history": [
+    {
+      "title": "Work Experience",
+      "list": [
+        {
+          "subject": "Magnet Ad services-Hassin Company",
+          "icon": "./images/magnet.png",
+          "dataList": [
+            {
+              "text": "Front-end Developer and UX designer at Magnet Ad services-Hassin Company From 2019 to now"
+            },
+            {
+              "text": "Proficient in developing Single Page Applications(SPA) using JavaScript MVC framework such as React JS."
+            },
+            {
+              "text": "UX Researcher."
+            },
+            {
+              "text": "creation wireframes and process maps using Balsamiq and adobe xd."
+            },
+            {
+              "text": "Work cohesively with other talented developers in a positive, team environment."
+            },
+            {
+              "text": "Develop and maintain applications using standard development tools."
+            }
+          ]
+        },
+
+        {
+          "subject": "Ansar Information of Technology Co",
+          "icon": "./images/ansar.png",
+          "dataList": [
+            {
+              "text": "Front-end  Developer at Ansar Information of Technology Co From 2017 To 2019"
+            },
+            {
+              "text": "Developed many banking projects with angularjs & angular2."
+            },
+            {
+              "text": "Work with senior developer to develop a large scale angular2 framework & Created custom Angular2 components for internal framework."
+            },
+            {
+              "text": "Hands on experience in Responsive Design and Media Queries."
+            },
+            {
+              "text": "working with team members for resolving front end CSS issues & Trained 2 interns on HTML5 , CSS3 , Angular ,Sass , Bootsrap ,Typescript."
+            },
+            {
+              "text": "Collaborated with team on implementing new features and UX in an Agile environment."
+            },
+            {
+              "text": "Trained Scrum methodology to team members."
+            },
+            {
+              "text": "Mentored new team members."
+            }
+          ]
+        },
+        {
+          "subject": "IranDoc",
+          "icon": "./images/irandoc.jpg",
+          "dataList": [
+            {
+              "text": "Full Stack  Developer at Iranian Research Institute for Information Science and Technology From 2016 To 2017"
+            },
+            {
+              "text": ".Net Developer."
+            },
+            {
+              "text": "Front end Developer using HTML5 , CSS3 , JavaScript , jQuery."
+            },
+            {
+              "text": "Design DataBase Using Sql."
+            }
+          ]
+        },
+        {
+          "subject": "Modir Info",
+          "icon": "./images/modirinfo.jpg",
+          "dataList": [
+            {
+              "text": "Front end Developer at Modir Info From 2014 To 2915."
+            },
+            {
+              "text": "Developed Plugin using HTML , CSS , Bootstrap , JavaScript , jQuery. "
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

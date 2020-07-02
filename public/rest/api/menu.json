@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Home",
+    "route": "#home"
+  },
+  {
+    "name": "About Me",
+    "route": "#aboutme"
+  },
+  {
+    "name": "Experiences",
+    "route": "#experiences"
+  },
+  {
+    "name": "Education",
+    "route": "#education"
+  },
+  {
+    "name": "Skills",
+    "route": "#skills"
+  }
+]
