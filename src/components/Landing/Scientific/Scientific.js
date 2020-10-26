@@ -43,7 +43,6 @@ class Scientific extends React.Component {
 
     return (
       <ul className="tag-list">
-        <p>hyhiuu</p>
       </ul>
     );
   }

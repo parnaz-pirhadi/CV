@@ -1,16 +1,13 @@
 import React from "react";
-// import agent from '../../agent';
 import { connect } from "react-redux";
 import "./index.scss";
 import Header from "./Header/Header";
 import FirstLook from "./FirstLook/index";
 import Experiences from "./Experiences/Experiences";
-import Scientific from "./Scientific/Scientific";
 import Educations from "./Educations/Educations";
-import About from "./AboutMe/Aboutme";
+import About from "./About/About";
 import Skills from "./Skills/Skills";
 import Footer from "./Footer/Footer";
-import ClipLoader from "react-spinners/ClipLoader";
 import { css } from "@emotion/core";
 
 const override = css`
@@ -57,9 +54,9 @@ class Landing extends React.Component {
         <Header />
         <FirstLook />
         <About />
+        <Skills />
         <Experiences />
         <Educations />
-        <Skills />
         <Footer />
       </div>
     );

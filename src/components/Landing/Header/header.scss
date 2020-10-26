@@ -11,11 +11,12 @@ nav {
       margin-left: 20vw;
       margin-top: -3px;
     }
-    .google-plus {
+    .github {
       margin-left: 5px;
+      margin-top: -3px;
     }
     .email {
-      margin-left: 43%;
+      margin-left: 40%;
       .socialMedia {
         border: none !important;
         position: relative;
@@ -56,6 +57,13 @@ nav {
             top: 2px;
             font-size: 1.1vw;
           }
+          .fa-github{
+            color: #15489f;
+            position: absolute;
+            margin-left: 6px;
+            top: 2px;
+            font-size: 1.2vw;
+                    }
         }
       }
     }
@@ -78,17 +86,20 @@ nav {
       }
 
       .email {
-        margin-left: 43%;
+        margin-left: 40%;
       }
     }
   }
   .icon-envelope {
-    font-size: 3.9vw !important;
-    left: -60%;
-    top: 3px !important;
+    font-size: 5vw !important;
+    right: 78px!important;
+    top: -2px !important;
   }
   .icon-linkedin {
-    font-size: 1.9vw !important;
+    font-size: 2.9vw !important;
+  }
+  .fa-github{
+    font-size: 2.9vw !important;
   }
 }
 
@@ -102,9 +113,13 @@ nav {
       .icon-linkedin {
         font-size: 3.4vw !important;
       }
+      .fa-github{
+        font-size: 4vw!important;
+      }
       .icon-envelope {
         font-size: 5.7vw !important;
         top: -3px !important;
+        right: 60px!important;
       }
     }
   }

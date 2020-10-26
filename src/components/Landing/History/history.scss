@@ -39,9 +39,9 @@
         font-size: 1vw;
         color: black;
       }
-      // &:last-child {
-      //   color: #7b7b7b;
-      // }
+      &:last-child {
+        color: black;
+      }
     }
     & > .img {
       position: relative;

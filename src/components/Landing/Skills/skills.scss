@@ -1,5 +1,5 @@
 .title {
-  width: 52%;
+  width: 100%;
 }
 .star {
   width: 48%;
@@ -7,7 +7,7 @@
   position: relative;
 }
 .skills {
-  min-height: 425px;
+  min-height: 300px;
   position: relative;
   margin-bottom: 0;
   background: #f5f5f5;
@@ -44,19 +44,31 @@
     }
   }
   .skillList {
+    // display: flex;
+    // flex-wrap: wrap;
+    // width: 64%;
+    // margin: 20px auto;
+    // text-align: left;
+    // direction: ltr;
+    // color: #121212;
     display: flex;
     flex-wrap: wrap;
-    width: 64%;
+    width: 70%;
+    background-color: white;
     margin: 20px auto;
     text-align: left;
     direction: ltr;
     color: #121212;
     .title {
-      margin-bottom: 40px;
-      text-align: left;
-      color: #121212;
-      position: relative;
-      direction: ltr;
+      // margin-bottom: 40px;
+      // text-align: left;
+      // color: #121212;
+      // position: relative;
+      // direction: ltr;
+      text-align: center;
+    color: #121212;
+    position: relative;
+    direction: ltr;
       .line {
         position: relative;
         display: inline-block;
@@ -69,15 +81,23 @@
       width: 100%;
       display: flex;
       flex-wrap: wrap;
+      box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.16);
       .item {
         direction: ltr;
-        margin-bottom: 19px;
-        display: inline-flex;
-        width: 50%;
+    margin: 19px 0;
+    display: inline-flex;
+    width: 16%;
+        // direction: ltr;
+        // margin-bottom: 19px;
+        // display: inline-flex;
+        // width: 50%;
         span {
           margin-right: 15px;
           font-weight: 600;
-          font-size: 1.2vw;
+          font-size: 1vw;
+          // margin-right: 15px;
+          // font-weight: 600;
+          // font-size: 1.2vw;
         }
         i {
           // width: 35px;
@@ -122,7 +142,7 @@
     }
   }
   .title span {
-    font-size: 1.8vw !important;
+    font-size: 2.8vw !important;
   }
 }
 

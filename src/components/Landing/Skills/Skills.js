@@ -42,7 +42,7 @@ class Skills extends React.Component {
                         <div className="title">
                           <span>{detail.title}</span>
                         </div>
-                        <div className="star">
+                        {/* <div className="star">
                           {detail.fullStar.map((fullStar, index) => {
                             return (
                               <i key={index} className={"icon-star-full"}></i>
@@ -52,7 +52,7 @@ class Skills extends React.Component {
                           {detail.halfStar > 0 && (
                             <i className={"icon-star-half"}></i>
                           )}
-                        </div>
+                        </div> */}
                       </div>
                     );
                   })}
@@ -66,7 +66,6 @@ class Skills extends React.Component {
 
     return (
       <ul className="tag-list">
-        <p>hyhiuu</p>
       </ul>
     );
   }

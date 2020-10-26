@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import agent from "../../../../agent";
 import { connect } from "react-redux";
+import "./navigation.scss";
 import { MENU } from "../../../../constants/actionTypes";
 
 const mapStateToProps = (state) => {

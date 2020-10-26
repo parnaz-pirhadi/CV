@@ -9,8 +9,12 @@
           "icon": "./images/magnet.png",
           "dataList": [
             {
-              "text": "Front-end Developer and UX designer at Magnet Ad services-Hassin Company From 2019 to now"
+              "text":"my position in Magnet Ad services is Front-End developer with react js and UX researcher and design wireframe based on best flow for users From 2019 to now."
             },
+            {
+              "text":"Responsibilities:"
+            },
+            
             {
               "text": "Proficient in developing Single Page Applications(SPA) using JavaScript MVC framework such as React JS."
             },
@@ -25,6 +29,9 @@
             },
             {
               "text": "Develop and maintain applications using standard development tools."
+            },
+            {
+              "text":"Online Projects: https://admin.s-peak.ir/ , https://admin.s-peak.ir/ .  These projects have been developed by react js."
             }
           ]
         },
@@ -34,7 +41,10 @@
           "icon": "./images/ansar.png",
           "dataList": [
             {
-              "text": "Front-end  Developer at Ansar Information of Technology Co From 2017 To 2019"
+              "text":"my position in Ansar Information of Technology Co was Front-End developer with angular js and angular 2 and Mentored new team members From 2017 To 2019."
+            },
+            {
+              "text":"Responsibilities:"
             },
             {
               "text": "Developed many banking projects with angularjs & angular2."
@@ -56,6 +66,9 @@
             },
             {
               "text": "Mentored new team members."
+            },
+            {
+              "text": "Online Project: https://mahersan.ansarbank.ir/ . This project have been developed by angular2."
             }
           ]
         },
@@ -64,8 +77,12 @@
           "icon": "./images/irandoc.jpg",
           "dataList": [
             {
-              "text": "Full Stack  Developer at Iranian Research Institute for Information Science and Technology From 2016 To 2017"
+              "text":"my position in Iranian Research Institute for Information Science and Technology full stack developer From 2016 To 2017."
             },
+            {
+              "text":"Responsibilities:"
+            },
+          
             {
               "text": ".Net Developer."
             },
@@ -74,18 +91,28 @@
             },
             {
               "text": "Design DataBase Using Sql."
+            },
+            {
+              "text":"Online Project : http://www.cinemadoc.ir/"
             }
           ]
         },
         {
           "subject": "Modir Info",
           "icon": "./images/modirinfo.jpg",
+      
           "dataList": [
+            {
+              "text":"Responsibilities:"
+            },
             {
               "text": "Front end Developer at Modir Info From 2014 To 2915."
             },
             {
               "text": "Developed Plugin using HTML , CSS , Bootstrap , JavaScript , jQuery. "
+            },
+            {
+              "text":"Online Project : http://www.modirinfo.com/ . This project have been developed by .net language and MVC framework."
             }
           ]
         }

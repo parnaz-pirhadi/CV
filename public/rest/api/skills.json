@@ -4,28 +4,8 @@
     {
       "data": [
         {
-          "title": "HTML5",
-          "fullStar": [1, 2, 3, 4, 5],
-          "halfStar": 0
-        },
-        {
-          "title": "CSS3",
-          "fullStar": [1, 2, 3, 4, 5],
-          "halfStar": 0
-        },
-        {
-          "title": "BootStrap",
-          "fullStar": [1, 2, 3, 4, 5],
-          "halfStar": 0
-        },
-        {
-          "title": "SASS",
+          "title": "Reactjs",
           "fullStar": [1, 2, 3, 4],
-          "halfStar": 0
-        },
-        {
-          "title": "Responsive Design",
-          "fullStar": [1, 2, 3, 4, 5],
           "halfStar": 0
         },
         {
@@ -34,32 +14,17 @@
           "halfStar": 1
         },
         {
-          "title": "Reactjs",
-          "fullStar": [1, 2, 3, 4],
-          "halfStar": 0
-        },
-        {
-          "title": "TypeScript",
-          "fullStar": [1, 2, 3, 4],
-          "halfStar": 0
-        },
-        {
-          "title": "Angularjs",
-          "fullStar": [1, 2, 3, 4, 5],
-          "halfStar": 0
-        },
-        {
-          "title": "Angular2",
-          "fullStar": [1, 2, 3, 4],
-          "halfStar": 1
-        },
-        {
-          "title": "RESTful Web Service",
-          "fullStar": [1, 2, 3, 4],
-          "halfStar": 0
-        },
-        {
           "title": "ES6",
+          "fullStar": [1, 2, 3, 4],
+          "halfStar": 0
+        },
+        {
+          "title": "UX Designing",
+          "fullStar": [1, 2, 3, 4],
+          "halfStar": 0
+        },
+        {
+          "title": "UX Researching",
           "fullStar": [1, 2, 3, 4],
           "halfStar": 0
         },
@@ -69,12 +34,7 @@
           "halfStar": 0
         },
         {
-          "title": "SQL",
-          "fullStar": [1, 2, 3],
-          "halfStar": 0
-        },
-        {
-          "title": "Source Tree (Git)",
+          "title": "Git",
           "fullStar": [1, 2, 3],
           "halfStar": 0
         },
@@ -84,14 +44,25 @@
           "halfStar": 0
         },
         {
-          "title": "Java",
-          "fullStar": [1, 2, 3],
+          "title": "HTML5",
+          "fullStar": [1, 2, 3, 4, 5],
           "halfStar": 0
         },
         {
-          "title": "PhotoShop",
-          "fullStar": [1, 2],
-          "halfStar": 1
+          "title": "CSS3",
+          "fullStar": [1, 2, 3, 4, 5],
+          "halfStar": 0
+        },
+        
+        {
+          "title": "SASS",
+          "fullStar": [1, 2, 3, 4],
+          "halfStar": 0
+        },
+        {
+          "title": "Responsive Design",
+          "fullStar": [1, 2, 3, 4, 5],
+          "halfStar": 0
         }
       ]
     }

@@ -30,6 +30,7 @@ class History extends React.Component {
               <p className="title">
                 {" "}
                 {item.title}
+
                 <span className="line"></span>
               </p>
               {item.list.map((subData, index) => {
@@ -55,7 +56,9 @@ class History extends React.Component {
                       }`}
                     >
                       {subData.subject}
+
                     </label>
+
                     <div
                       className={` ${
                         this.state.isOpen["i" + index + "i" + parentIndex + ""]
@@ -64,19 +67,24 @@ class History extends React.Component {
                       }`}
                     >
                       <div className="detailText">
+
                         {subData.dataList.map((detail, index) => {
                           return <span key={index}>{detail.text}</span>;
                         })}
+
                       </div>
                       <div className="imageDetail">
                         <img className="img" src={subData.icon}></img>
                       </div>
                     </div>
+
                   </div>
+
                 );
               })}
             </div>
           );
+
         })}
       </div>
     );

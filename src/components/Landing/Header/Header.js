@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./header.scss";
+import 'font-awesome/css/font-awesome.min.css';
+
 
 class Header extends React.Component {
   render() {
@@ -14,13 +16,13 @@ class Header extends React.Component {
               </div>
             </a>
           </li>
-          {/* <li className="google-plus">
-            <a href="#">
+          <li className="github">
+            <a href="https://github.com/parnaz-pirhadi">
               <div className="socialMedia">
-                <i className="icon-google-plus"></i>
+                <i className="fa fa-github"></i>
               </div>
             </a>
-          </li> */}
+          </li>
           <li className="email">
             <a href="#">
               <div className="socialMedia">
